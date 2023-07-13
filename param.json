@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location":{
+            "value": "eastus"
+        },
+        "sqldbname":{
+            "value": "database"
+        },
+        "storageaccname":{
+            "value": "stoaccn2345609"
+        },
+        "sqlservername":{
+            "value": "sqlservername1370"
+        },
+        "vnetname":{
+            "value": "vnet1"
+        }
+    }
+}
